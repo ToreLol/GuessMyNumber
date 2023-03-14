@@ -6,7 +6,7 @@ int main()
 {
 	int num = 0, guess = 0, tries = 0;
 	srand(static_cast<unsigned int>(time(0)));
-	num = rand() % 200 + 1;
+	num = rand() % 300 + 1;
 	cout << "\nGuess the number uwu\n";
 	cout << "\nIntenta conseguir el numero en 1 intento para un mensaje secreto!!🙀 (pero sera solo 1 mensaje secreto? 🤨 )\n\n";
 
